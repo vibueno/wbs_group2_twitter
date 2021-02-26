@@ -6,11 +6,11 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 dotenv.config();
 
+const pool = require('./utils/db');
+
 const { PORT } = process.env;
 
-// Own imports
-const db = require('./utils/db');
-const { msgServerStarted } = require('./variables/messages');
+const { msgServerStarted } = require('./vars/messages');
 
 // Start express
 const app = express();
