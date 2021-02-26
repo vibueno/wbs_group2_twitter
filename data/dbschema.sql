@@ -18,6 +18,10 @@ INSERT INTO users (name, email) VALUES ('Stefan', 'stefan@planetearth.earth');
 
 INSERT INTO messages (text, date, id_user) VALUES
   ('Hello from planet Earth. Is there anyone there?', '2021-02-26', 2);
+  INSERT INTO messages (text, date, id_user) VALUES
+    ('Hey humans, what is thing called paella?', '2021-02-24', 2);
 
   INSERT INTO messages (text, date, id_user) VALUES
   ('Hello world', '2021-02-26', 3);
+    INSERT INTO messages (text, date, id_user) VALUES
+    ('Hello world from the future', '2021-02-28', 3);
