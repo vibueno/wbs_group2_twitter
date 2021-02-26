@@ -22,8 +22,10 @@ app.use(cors());
 // Routes
 const appRoutes = require('./routes/App');
 const usersRoutes = require('./routes/users');
+const messagesRoutes = require('./routes/messages');
 
 app.use('/users', usersRoutes);
+app.use('/messages', messagesRoutes);
 app.use('*', appRoutes);
 
 // Server start
