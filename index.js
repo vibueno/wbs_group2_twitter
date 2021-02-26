@@ -6,8 +6,6 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 dotenv.config();
 
-const pool = require('./utils/db');
-
 const { PORT } = process.env;
 
 const { msgServerStarted } = require('./vars/messages');
@@ -23,7 +21,9 @@ app.use(cors());
 
 // Routes
 const appRoutes = require('./routes/App');
+const usersRoutes = require('./routes/users');
 
+app.use('/users', usersRoutes);
 app.use('*', appRoutes);
 
 // Server start
