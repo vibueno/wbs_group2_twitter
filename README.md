@@ -9,7 +9,7 @@
 
 ## Description
 
-This repository contains the back-end part of a Twitter clone application, created for a crossover assignment between two groups of two different bactches at [WBS Coding School](https://www.wbscodingschool.com).
+This repository contains the back-end part of a Twitter clone application, created for a crossover assignment between two groups of two different batches at [WBS Coding School](https://www.wbscodingschool.com).
 
 ## Live
 
