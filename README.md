@@ -3,13 +3,17 @@
 ## Table of Contents
 
 - [Description](#description)
-- [Endpoints](#endpoints)
 - [Live](#live)
+- [Endpoints](#endpoints)
 - [Programming](#programming)
 
 ## Description
 
-This repository contains the back-end part of a Twitter clone application, created for a WBS Coding School assignment.
+This repository contains the back-end part of a Twitter clone application, created for a crossover assignment between two groups of two different bactches at [WBS Coding School](https://www.wbscodingschool.com).
+
+## Live
+
+This application is hosted on [Heroku](https://wbsgroup2twitter.herokuapp.com/messages).
 
 ## Endpoints
 
@@ -20,10 +24,6 @@ This repository contains the back-end part of a Twitter clone application, creat
 | GET         | [/messages](https://wbsgroup2twitter.herokuapp.com/messages)                       | Retrieves all messages                      |
 | GET         | [/messages/:msgid](https://wbsgroup2twitter.herokuapp.com/messages/1)              | Retrieves message with id=msgid             |
 | GET         | [/users/:userid/messages](https://wbsgroup2twitter.herokuapp.com/users/1/messages) | Retrieves messages from user with id=userid |
-
-## Live
-
-This application is hosted on [Heroku](https://wbsgroup2twitter.herokuapp.com/messages).
 
 ## Programming
 
